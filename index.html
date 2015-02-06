@@ -1,20 +1,68 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title></title>
-    <meta charset="utf-8"/>
-    <link rel="stylesheet" href="assets/vendor/normalize.css"/>
-    <link rel="stylesheet" href="css/default.css"/>
+  <title>Fabian Hoffmann - Web Developer</title>
+  <meta charset="utf-8"/>
+  <link rel="stylesheet" href="assets/vendor/normalize.css"/>
+  <link rel="stylesheet" href="assets/css/main.css"/>
+  <!-- <link href='http://fonts.googleapis.com/css?family=Josefin+Slab:100,300,400,600,700' rel='stylesheet' type='text/css'>
+  <link href='http://fonts.googleapis.com/css?family=Josefin+Sans:100,300,400,100italic,300italic,400italic' rel='stylesheet' type='text/css'> -->
+  <script src="assets/vendor/modernizr.js"></script>
 </head>
 <body>
-<div>
-</div>
+  <div class="header">
+    <h1>Fabian Hoffmann</h1>
+    <cite>"I write code"</cite>
+  </div>
 
-<p id="output"></p>
+  <div class="badges">
+    <div class="col">
+      <img class="grayscale" src="html.png"></img>
+      <div class="html"></div>
+      <div class="css"></div>
+      <div class="sass"></div>
+      <div class="js"></div>
+      <div class="jquery"></div>
+      <div class="node"></div>
+      <div class="rails"></div>
+      <div class="php"></div>
+      <div class="mysql"></div>
+      <div class="postgres"></div>
+      <div class="ios"></div>
+      <div class="psd"></div>
+      <div class="premiere"></div>
+      <div class="afterfx"></div>
+    </div>
+  </div>
+
+  <div class="footer">
+    <a href="https://github.com/Fabian-Fynn">
+      <img src="assets/img/github.png">
+    </a>
+    <a href="http://fabianfynn.deviantart.com">
+      <img src="assets/img/deviant.png">
+    </a>
+  </div>
 
 
-<script src="vendor/jquery-2.1.1.js"></script>
-<script src="js/lib.js"></script>
-<script src="js/main.js"></script>
+
+
+  <script src="assets/vendor/jquery-1.11.2.min.js"></script>
+  <script src="assets/js/lib.js"></script>
+  <script src="assets/js/main.js"></script>
+
+  <script type="text/javascript">
+    (function($) {
+      $.fn.grayScale = function()
+      {
+        var elem=$(this);
+        var source=elem.attr("src");
+        elem.attr("src",grayscale(source));
+      }
+    })(jQuery);
+
+    $("img.grayscale").grayScale();
+
+    </script>
 </body>
 </html>

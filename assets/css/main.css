@@ -1,4 +1,132 @@
-html {
-  background: black; }
+html.no-webp, html {
+  min-height: 100%;
+  position: relative;
+  background: linear-gradient(rgba(20, 20, 20, 0.75), rgba(20, 20, 20, 0.75)), url("../img/bg.jpg"); }
+
+html.webp {
+  background: linear-gradient(rgba(20, 20, 20, 0.75), rgba(20, 20, 20, 0.75)), url("../img/bg.webP"); }
+
+body {
+  width: 100%;
+  margin: 0 0 60px;
+  font-size: 100%;
+  color: #fff; }
+
+h1 {
+  font-family: "Josefin Slab", serif;
+  font-weight: 300;
+  font-size: 320%; }
+
+.header {
+  max-width: 100%;
+  margin-left: 40px;
+  float: left; }
+
+.header h1 {
+  margin-bottom: 7px; }
+
+cite {
+  font-size: 2em;
+  font-family: "Josefin Sans", sans-serif;
+  font-weight: 100;
+  margin-left: 222px; }
+
+.col {
+  width: 200px;
+  height: 500px;
+  float: right;
+  margin-top: 30px;
+  margin-right: 20px; }
+  .col * {
+    width: 100px;
+    height: 100px;
+    float: left; }
+
+.html {
+  background: url("../img/html.png");
+  background-size: 80% 80%;
+  background-repeat: no-repeat; }
+
+.css {
+  background: url("../img/css.png");
+  background-size: 80% 80%;
+  background-repeat: no-repeat; }
+
+.sass {
+  background: url("../img/sass.png");
+  background-size: 80% 80%;
+  background-repeat: no-repeat; }
+
+.js {
+  background: url("../img/js.png");
+  background-size: 80% 80%;
+  background-repeat: no-repeat; }
+
+.jquery {
+  background: url("../img/jquery.png");
+  background-size: 80% 80%;
+  background-repeat: no-repeat; }
+
+.node {
+  background: url("../img/node.png");
+  background-size: 80% 80%;
+  background-repeat: no-repeat; }
+
+.rails {
+  background: url("../img/rails.png");
+  background-size: 80% 80%;
+  background-repeat: no-repeat; }
+
+.php {
+  background: url("../img/php.png");
+  background-size: 80% 80%;
+  background-repeat: no-repeat; }
+
+.mysql {
+  background: url("../img/mysql.png");
+  background-size: 80% 80%;
+  background-repeat: no-repeat; }
+
+.postgres {
+  background: url("../img/postgres.png");
+  background-size: 80% 80%;
+  background-repeat: no-repeat; }
+
+.ios {
+  background: url("../img/ios8.png");
+  background-size: 80% 80%;
+  background-repeat: no-repeat; }
+
+.psd {
+  background: url("../img/psd.png");
+  background-size: 80% 80%;
+  background-repeat: no-repeat; }
+
+.premiere {
+  background: url("../img/premiere.png");
+  background-size: 80% 80%;
+  background-repeat: no-repeat; }
+
+.afterfx {
+  background: url("../img/afterfx.png");
+  background-size: 80% 80%;
+  background-repeat: no-repeat; }
+
+.badge img {
+  -webkit-filter: grayscale(100%);
+  -webkit-filter: grayscale(1);
+  filter: grayscale(100%);
+  filter: url("../img/gray.svg#grayscale");
+  filter: gray; }
+
+.footer {
+  height: 60px;
+  margin: 20px 40px 10px 10px;
+  position: absolute;
+  bottom: 0;
+  right: 0; }
+  .footer img {
+    width: 50px;
+    height: auto; }
 
 /*# sourceMappingURL=main.css.map */
