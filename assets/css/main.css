@@ -4,7 +4,7 @@ html.no-webp, html {
   background: linear-gradient(rgba(20, 20, 20, 0.75), rgba(20, 20, 20, 0.75)), url("../img/bg.jpg"); }
 
 html.webp {
-  background: linear-gradient(rgba(20, 20, 20, 0.75), rgba(20, 20, 20, 0.75)), url("../img/bg.webP"); }
+  background: linear-gradient(rgba(20, 20, 20, 0.75), rgba(20, 20, 20, 0.75)), url("../img/bg.jpg"); }
 
 body {
   width: 100%;
