@@ -1,10 +1,10 @@
 html.no-webp, html {
-  min-height: 100%;
+  min-height: 1000%;
   position: relative;
-  background: linear-gradient(rgba(20, 20, 20, 0.75), rgba(20, 20, 20, 0.75)), url("../img/bg.jpg"); }
+  background: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)), url("../img/bg.jpg") repeat-y; }
 
 html.webp {
-  background: linear-gradient(rgba(20, 20, 20, 0.75), rgba(20, 20, 20, 0.75)), url("../img/bg.jpg"); }
+  background: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)), url("../img/bg.jpg") repeat-y; }
 
 body {
   width: 100%;
@@ -86,6 +86,9 @@ cite {
 
 .github {
   background: url("../img/github.png"); }
+
+.twitter {
+  background: url("../img/twitter.png"); }
 
 .badge {
   background-size: 80% 80% !important;
