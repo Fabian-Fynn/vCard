@@ -1,5 +1,5 @@
 html.no-webp, html {
-  min-height: 1000%;
+  min-height: 100%;
   position: relative;
   background: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)), url("../img/bg.jpg") repeat-y 0 -400px; }
 
