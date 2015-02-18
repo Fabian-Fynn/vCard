@@ -3,19 +3,27 @@ $font1: 'Josefin Slab', serif
 $font2: 'Josefin Sans', sans-serif
 $badge-size: 80% 80%
 
+html:before
+  display: none
+  content: url('../img/bg.jpg')
+
 html.no-webp, html
   min-height: 100%
   position: relative
+  background: black
   background: linear-gradient($overlay, $overlay), url('../img/bg.jpg') repeat-y 0 -400px
 
 html.webp
-  background: linear-gradient($overlay, $overlay), url('../img/bg.jpg')  repeat-y
+  background: linear-gradient($overlay, $overlay), url('../img/bg.jpg')  repeat-y 0 -400px
 
 body
   width: 100%
   margin: 0 0 60px
   font-size: 100%
   color: #fff
+  *
+    font-family: $font2
+
 
 h1
   font-family: $font1
@@ -23,6 +31,11 @@ h1
   font-size: 400%
 
 h2
+  font-family: $font1
+  font-weight: 300
+  font-size: 300%
+
+h3
   font-family: $font1
   font-weight: 300
   font-size: 200%
@@ -67,6 +80,16 @@ span:after
   right: 0
   left: auto
 
+#scrollProjects
+  margin-top: 100px
+  border: 1px #888 solid
+  display: inline-block
+  padding: 10px
+  p
+    margin: 0px
+    display: inline-block
+    color: #ddd
+    letter-spacing: 0.1em
 
 
 .badges
