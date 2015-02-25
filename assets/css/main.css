@@ -6,7 +6,8 @@ html.no-webp, html {
   min-height: 100%;
   position: relative;
   background: black;
-  background: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)), url("../img/bg.jpg") repeat-y 0 -400px; }
+  background: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)), url("../img/bg.jpg") repeat-y 0 -400px;
+  text-align: center; }
 
 html.webp {
   background: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)), url("../img/bg.jpg") repeat-y 0 -400px; }
@@ -31,8 +32,9 @@ h2 {
 
 h3 {
   font-family: "Josefin Slab", serif;
-  font-weight: 300;
-  font-size: 200%; }
+  font-weight: 200;
+  font-size: 170%;
+  margin-bottom: 0px; }
 
 .header {
   width: 100%;
@@ -72,6 +74,13 @@ span:after {
   right: 0;
   left: auto; }
 
+p {
+  font-weight: 300; }
+
+.note {
+  font-style: italic;
+  font-size: 120%; }
+
 #scrollProjects {
   margin-top: 100px;
   border: 1px #888 solid;
@@ -95,8 +104,8 @@ span:after {
 .badge {
   background-size: 80% 80% !important;
   background-repeat: no-repeat !important;
-  width: 50px;
-  height: 50px;
+  width: 80px;
+  height: 80px;
   float: left;
   filter: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg'><filter id='grayscale'><feColorMatrix type='matrix' values='0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0 0 0 1 0'/></filter></svg>#grayscale");
   filter: gray;
@@ -163,6 +172,9 @@ span:after {
 
 .twitter {
   background: url("../img/twitter.png"); }
+
+.link {
+  background: url("../img/link.png"); }
 
 .footer {
   height: auto;

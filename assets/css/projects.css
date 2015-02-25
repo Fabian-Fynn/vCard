@@ -3,7 +3,20 @@
   top: 100vh;
   width: 100%;
   min-height: 1000px;
-  float: left;
-  padding: 30px; }
+  box-sizing: border-box;
+  float: left; }
+  #projects h2 {
+    text-align: center; }
+  #projects .project {
+    margin-bottom: 60px;
+    text-align: center; }
+    #projects .project .links {
+      width: 60px;
+      height: 30px;
+      margin: 0 auto; }
+    #projects .project .small {
+      width: 30px;
+      height: 30px;
+      float: left; }
 
 /*# sourceMappingURL=projects.css.map */
