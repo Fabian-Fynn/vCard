@@ -13,10 +13,13 @@
     #projects .project .links {
       width: 60px;
       height: 30px;
-      margin: 0 auto; }
+      margin: 0 auto;
+      text-align: center; }
+    #projects .project .links.single {
+      width: 30px; }
     #projects .project .small {
       width: 30px;
       height: 30px;
-      float: left; }
+      display: inline-block; }
 
 /*# sourceMappingURL=projects.css.map */

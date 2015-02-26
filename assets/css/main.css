@@ -176,6 +176,9 @@ p {
 .link {
   background: url("../img/link.png"); }
 
+.vcf {
+  background: url("../img/vcf.png"); }
+
 .footer {
   height: auto;
   width: auto;

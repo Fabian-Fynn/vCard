@@ -1,0 +1,13 @@
+BEGIN:VCARD
+VERSION:3.0
+PRODID:-//Apple Inc.//Mac OS X 10.10.2//EN
+N:Hoffmann;Fabian;;;
+FN:Fabian Hoffmann
+EMAIL;type=INTERNET;type=pref:fhoffmann.mmt-b2013@fh-salzburg.ac.at
+TEL;type=WORK;type=VOICE;type=pref:+436508228974
+TEL;type=WORK;type=FAX:+436629704
+ADR;type=WORK;type=pref:;;Erich-Fried-Strasse 13;Salzburg;Salzburg;5020;Austria
+URL;type=WORK;type=pref:fabianhoffmann.io
+UID:4b10d27f1351fbda
+X-ABUID:E1C7DED7-2D2B-4C9D-89D2-75AE95B628A9:ABPerson
+END:VCARD
