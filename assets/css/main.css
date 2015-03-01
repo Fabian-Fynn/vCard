@@ -66,14 +66,14 @@ h3 {
         font-size: 5vw; } }
 
 cite {
-  font-size: 150%;
+  font-size: 160%;
   font-family: "Josefin Sans", sans-serif;
   font-weight: 100;
   float: left;
   margin: 0 10px 0 10px; }
   @media screen and (max-width: 1000px) {
     cite {
-      font-size: 4vw; } }
+      font-size: 5vw; } }
 
 span {
   margin-top: 80px;
@@ -132,7 +132,7 @@ p {
     position: absolute;
     left: 0;
     right: 0;
-    width: 90vw;
+    width: 94vw;
     min-height: 50px;
     margin-left: auto;
     margin-right: auto; }
@@ -231,6 +231,9 @@ p {
 .vcf {
   background: url("../img/vcf.png"); }
 
+.cv {
+  background: url("../img/cv.png"); }
+
 .footer {
   height: auto;
   width: auto;
@@ -250,5 +253,13 @@ p {
       .footer .badge {
         width: 8vw;
         height: 8vw; } }
+
+.tail {
+  position: absolute;
+  bottom: 0;
+  padding-left: 50px;
+  padding-bottom: 10px;
+  font-weight: 100;
+  color: #aaa; }
 
 /*# sourceMappingURL=main.css.map */
