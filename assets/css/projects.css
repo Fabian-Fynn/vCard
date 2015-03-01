@@ -4,10 +4,10 @@
   min-height: 1000px;
   box-sizing: border-box;
   float: left;
-  margin-top: 100px; }
+  margin-top: 200px; }
   @media screen and (max-width: 1000px) {
     #projects {
-      background: #37474F;
+      background: #263238;
       color: #fff; } }
   #projects h2 {
     text-align: center; }

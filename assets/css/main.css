@@ -111,14 +111,14 @@ p {
 
 #scrollProjects {
   margin-top: 150px;
-  border: 1px #aaa solid;
+  border: 1px #ddd solid;
   display: inline-block;
   padding: 15px;
   padding-bottom: 12px; }
   #scrollProjects p {
     margin: 0px;
     display: inline-block;
-    color: #ddd;
+    color: #fff;
     letter-spacing: 0.1em; }
     @media screen and (max-width: 1000px) {
       #scrollProjects p {
