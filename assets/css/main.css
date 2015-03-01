@@ -95,7 +95,8 @@ span:after {
   left: auto; }
 
 p {
-  font-weight: 200; }
+  font-weight: 200;
+  font-size: 120%; }
   @media screen and (max-width: 1000px) {
     p {
       font-size: 4vw; } }
@@ -110,14 +111,18 @@ p {
 
 #scrollProjects {
   margin-top: 150px;
-  border: 1px #888 solid;
+  border: 1px #aaa solid;
   display: inline-block;
-  padding: 10px; }
+  padding: 15px;
+  padding-bottom: 12px; }
   #scrollProjects p {
     margin: 0px;
     display: inline-block;
     color: #ddd;
     letter-spacing: 0.1em; }
+    @media screen and (max-width: 1000px) {
+      #scrollProjects p {
+        font-size: 3.5vw; } }
 
 .badges {
   width: 100%;
