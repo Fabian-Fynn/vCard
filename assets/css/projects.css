@@ -21,26 +21,26 @@
       text-align: center; }
       @media screen and (max-width: 1000px) {
         #projects .project .links {
-          width: 16vw;
-          height: 8vw; } }
+          width: 28vw;
+          height: 14vw; } }
     #projects .project .links.single {
       width: 30px; }
       @media screen and (max-width: 1000px) {
         #projects .project .links.single {
-          width: 8vw;
-          height: 8vw; } }
+          width: 14vw;
+          height: 14vw; } }
     #projects .project .small {
       width: 30px;
       height: 30px;
       display: inline-block; }
       @media screen and (max-width: 1000px) {
         #projects .project .small {
-          width: 8vw;
-          height: 8vw; } }
+          width: 14vw;
+          height: 14vw; } }
     #projects .project:last-child {
       margin-bottom: 100px; }
       @media screen and (max-width: 1000px) {
         #projects .project:last-child {
-          margin-bottom: 200px; } }
+          margin-bottom: 300px; } }
 
 /*# sourceMappingURL=projects.css.map */

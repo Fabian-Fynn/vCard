@@ -251,8 +251,8 @@ p {
     clear: none; }
     @media screen and (max-width: 1000px) {
       .footer .badge {
-        width: 8vw;
-        height: 8vw; } }
+        width: 12vw;
+        height: 12vw; } }
 
 .tail {
   position: absolute;
