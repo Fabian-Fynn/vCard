@@ -37,10 +37,10 @@
         #projects .project .small {
           width: 14vw;
           height: 14vw; } }
-    #projects .project:last-child {
-      margin-bottom: 100px; }
-      @media screen and (max-width: 1000px) {
-        #projects .project:last-child {
-          margin-bottom: 300px; } }
+  #projects .project:last-child {
+    margin-bottom: 100px; }
+    @media screen and (max-width: 1000px) {
+      #projects .project:last-child {
+        margin-bottom: 300px; } }
 
 /*# sourceMappingURL=projects.css.map */
