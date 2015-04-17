@@ -8,17 +8,17 @@ $break-small: 600px
 
 html:before
   display: none
-  content: url('../img/bg.jpg')
+  content: url('../assets/img/bg.jpg')
 
 html.no-webp, html
   min-height: 100%
   position: relative
   background: black
-  background: linear-gradient($overlay, $overlay), url('../img/bg.jpg') repeat-y 0 -400px
+  background: linear-gradient($overlay, $overlay), url('../assets/img/bg.jpg') repeat-y 0 -400px
   text-align: center
 
 html.webp
-  background: linear-gradient($overlay, $overlay), url('../img/bg.jpg')  repeat-y 0 -400px
+  background: linear-gradient($overlay, $overlay), url('../assets/img/bg.jpg')  repeat-y 0 -400px
 
 body
   width: 100%
@@ -126,27 +126,13 @@ p
     @media screen and (max-width: $break-large)
       font-size: 3.5vw
 
-.badges
-  width: 100%
-  margin-top: 10px
-  text-align: center
-
-  .col
-    position: absolute
-    left: 0
-    right: 0
-    width: 94vw
-    min-height: 50px
-    margin-left: auto
-    margin-right: auto
-
 
 .badge
-  background-size: $badge-size !important
   background-repeat: no-repeat !important
-  width: 5vw
-  height: 5vw
+  margin-left: 10px
   float: left
+  width: 4vw
+  height: 4vw
   @media screen and (max-width: $break-large)
     width: 10vw
     height: 10vw
@@ -158,6 +144,8 @@ p
   -webkit-transition: all .6s ease /* Fade to color for Chrome and Safari */
   -webkit-backface-visibility: hidden /* Fix for transition flickering */
 
+
+
 .badge:hover
   filter: none
   -webkit-filter: grayscale(0%)
@@ -167,77 +155,51 @@ p
   -o-transform: scale(1.1, 1.1)
   transform: scale(1.1, 1.1)
 
-.html
-  background: url('../img/html.png')
 
-.css
-  background: url('../img/css.png')
 
-.sass
-  background: url('../img/sass.png')
+#badges
+  width: 100%
+  margin-top: 15px
+  text-align: center
 
-.js
-  background: url('../img/js.png')
+  .col
+    position: absolute
+    left: 0
+    right: 0
+    width: 94vw
+    min-height: 50px
+    margin-left: auto
+    margin-right: auto
 
-.jquery
-  background: url('../img/jquery.png')
+    .badge
+      background-size: 4vw 4vw !important
+      width: 4vw
+      height: 1vw
+      padding-top: 3vw
+      &:hover
+        padding-top: 4.3vw
 
-.node
-  background: url('../img/node.png')
-
-.rails
-  background: url('../img/rails.png')
-
-.php
-  background: url('../img/php.png')
-
-.mysql
-  background: url('../img/mysql.png')
-
-.postgres
-  background: url('../img/postgres.png')
-
-.ios
-  background: url('../img/ios.png')
-
-.git
-  background: url('../img/git.png')
-
-.bootstrap
-  background: url('../img/bootstrap.png')
-
-.ps
-  background: url('../img/ps.png')
-
-.pr
-  background: url('../img/pr.png')
-
-.ae
-  background: url('../img/ae.png')
-
-.cs
-  background: url('../img/cs.png')
-
-.wordpress
-  background: url('../img/wordpress.png')
 
 .deviant
-  background: url('../img/deviant.png')
+  background: url('../assets/img/deviant.png')
 
 .github
-  background: url('../img/github.png')
+  background: url('../assets/img/github.png')
 
 .twitter
-  background: url('../img/twitter.png')
+  background: url('../assets/img/twitter.png')
 
 .link
-  background: url('../img/link.png')
+  background: url('../assets/img/link.png')
 
 .vcf
-  background: url('../img/vcf.png')
+  background: url('../assets/img/vcf.png')
 
 .email
-  background: url('../img/email.png')
+  background: url('../assets/img/email.png')
+
+.pgp
+  background: url('../assets/img/pgp.png')
 
 .footer
   height: auto
@@ -250,6 +212,7 @@ p
   background: rgba(10, 10, 10, 0.65)
 
   .badge
+    background-size: $badge-size !important
     width: $footer-badge-size
     height: $footer-badge-size
     margin: 10px 0px 5px 8px
