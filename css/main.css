@@ -25,7 +25,7 @@ h1 {
   font-family: "Josefin Slab", serif;
   font-weight: 300;
   font-size: 500%; }
-  @media screen and (max-width: 1000px) {
+  @media screen and (max-width: 1200px) {
     h1 {
       font-size: 11vw; } }
 
@@ -33,7 +33,7 @@ h2 {
   font-family: "Josefin Slab", serif;
   font-weight: 300;
   font-size: 300%; }
-  @media screen and (max-width: 1000px) {
+  @media screen and (max-width: 1200px) {
     h2 {
       font-size: 10vw; } }
 
@@ -42,7 +42,7 @@ h3 {
   font-weight: 200;
   font-size: 170%;
   margin-bottom: 0px; }
-  @media screen and (max-width: 1000px) {
+  @media screen and (max-width: 1200px) {
     h3 {
       font-size: 7vw; } }
 
@@ -51,7 +51,7 @@ h3 {
   margin-top: 150px;
   text-align: center;
   float: left; }
-  @media screen and (max-width: 1000px) {
+  @media screen and (max-width: 1200px) {
     .header {
       margin-top: 20vh; } }
   .header h1 {
@@ -61,7 +61,7 @@ h3 {
   .header h2 {
     margin-top: 80px;
     font-size: 250%; }
-    @media screen and (max-width: 1000px) {
+    @media screen and (max-width: 1200px) {
       .header h2 {
         font-size: 5vw; } }
 
@@ -71,7 +71,7 @@ cite {
   font-weight: 100;
   float: left;
   margin: 0 10px 0 10px; }
-  @media screen and (max-width: 1000px) {
+  @media screen and (max-width: 1200px) {
     cite {
       font-size: 5vw; } }
 
@@ -97,7 +97,7 @@ span:after {
 p {
   font-weight: 200;
   font-size: 120%; }
-  @media screen and (max-width: 1000px) {
+  @media screen and (max-width: 1200px) {
     p {
       font-size: 4vw; } }
 
@@ -105,7 +105,7 @@ p {
   font-style: italic;
   font-size: 120%;
   font-weight: 200; }
-  @media screen and (max-width: 1000px) {
+  @media screen and (max-width: 1200px) {
     .note {
       font-size: 4vw; } }
 
@@ -120,13 +120,12 @@ p {
     display: inline-block;
     color: #fff;
     letter-spacing: 0.1em; }
-    @media screen and (max-width: 1000px) {
+    @media screen and (max-width: 1200px) {
       #scrollProjects p {
         font-size: 3.5vw; } }
 
 .badge {
   background-repeat: no-repeat !important;
-  margin-left: 10px;
   float: left;
   width: 4vw;
   height: 4vw;
@@ -135,19 +134,21 @@ p {
   -webkit-filter: grayscale(100%);
   -webkit-transition: all 0.6s ease;
   -webkit-backface-visibility: hidden; }
-  @media screen and (max-width: 1000px) {
+  @media screen and (max-width: 1200px) {
     .badge {
       width: 10vw;
       height: 10vw; } }
 
 .badge:hover {
   filter: none;
-  -webkit-filter: grayscale(0%);
-  -webkit-transform: scale(1.1, 1.1);
-  -moz-transform: scale(1.1, 1.1);
-  -ms-transform: scale(1.1, 1.1);
-  -o-transform: scale(1.1, 1.1);
-  transform: scale(1.1, 1.1); }
+  -webkit-filter: grayscale(0%); }
+  @media screen and (min-width: 1200px) {
+    .badge:hover {
+      -webkit-transform: scale(1.1, 1.1);
+      -moz-transform: scale(1.1, 1.1);
+      -ms-transform: scale(1.1, 1.1);
+      -o-transform: scale(1.1, 1.1);
+      transform: scale(1.1, 1.1); } }
 
 #badges {
   width: 100%;
@@ -157,17 +158,28 @@ p {
     position: absolute;
     left: 0;
     right: 0;
-    width: 94vw;
+    width: 99vw;
     min-height: 50px;
     margin-left: auto;
     margin-right: auto; }
+    @media screen and (max-width: 1200px) {
+      #badges .col {
+        width: 96vw; } }
     #badges .col .badge {
       background-size: 4vw 4vw !important;
       width: 4vw;
       height: 1vw;
+      margin-right: 0.9vw;
       padding-top: 3vw; }
-      #badges .col .badge:hover {
-        padding-top: 4.3vw; }
+      @media screen and (min-width: 1200px) {
+        #badges .col .badge:hover {
+          padding-top: 4.3vw; } }
+      @media screen and (max-width: 1200px) {
+        #badges .col .badge {
+          width: 8.5vw;
+          height: 8.5vw;
+          background-size: 100% !important;
+          margin-bottom: 10px; } }
 
 .deviant {
   background: url("../assets/img/deviant.png"); }
@@ -206,7 +218,7 @@ p {
     margin: 10px 0px 5px 8px;
     float: right;
     clear: none; }
-    @media screen and (max-width: 1000px) {
+    @media screen and (max-width: 1200px) {
       .footer .badge {
         width: 12vw;
         height: 12vw; } }
@@ -218,5 +230,8 @@ p {
   padding-bottom: 10px;
   font-weight: 100;
   color: #aaa; }
+  @media screen and (max-width: 1200px) {
+    .tail {
+      bottom: 100px; } }
 
 /*# sourceMappingURL=main.css.map */

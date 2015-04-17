@@ -4,12 +4,13 @@
   min-height: 1000px;
   box-sizing: border-box;
   float: left;
-  margin-top: 360px;
-  padding-bottom: 100px; }
+  margin-top: 460px;
+  padding-bottom: 250px; }
   @media screen and (max-width: 1000px) {
     #projects {
       background: #263238;
-      color: #fff; } }
+      color: #fff;
+      padding-bottom: 300px; } }
   #projects h2 {
     text-align: center; }
   #projects .project {
@@ -40,10 +41,10 @@
         #projects .project .small {
           width: 14vw;
           height: 14vw; } }
-  #projects .project:last-child {
+  #projects:last-child {
     margin-bottom: 100px; }
     @media screen and (max-width: 1000px) {
-      #projects .project:last-child {
-        margin-bottom: 300px; } }
+      #projects:last-child {
+        margin-bottom: 400px; } }
 
 /*# sourceMappingURL=projects.css.map */
