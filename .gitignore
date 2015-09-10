@@ -1,2 +1,4 @@
 .sass-cache/*
 development/*
+.DS_Store
+*/*.map

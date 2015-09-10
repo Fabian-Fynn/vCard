@@ -37,6 +37,26 @@ $small-badge-size: 30px
         width: 14vw
         height: 14vw
 
+    .links.full
+      width: 135px
+      height: 40px
+      margin-bottom: 20px
+      @media screen and (max-width: $break-large)
+        width: 40vw
+        height: 12vw
+        margin-bottom: 4vw
+      a
+        width: 10vw
+        margin: auto
+        .appstore
+          width: 135px !important
+          height: 40px
+          background: url("../assets/img/appstore.svg")
+          @media screen and (max-width: $break-large)
+            width: 40vw !important
+            height: 12vw
+            background-size: 100%
+
     .small
       width: $small-badge-size
       height: $small-badge-size

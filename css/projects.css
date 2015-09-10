@@ -31,6 +31,27 @@
         #projects .project .links.single {
           width: 14vw;
           height: 14vw; } }
+    #projects .project .links.full {
+      width: 135px;
+      height: 40px;
+      margin-bottom: 20px; }
+      @media screen and (max-width: 1000px) {
+        #projects .project .links.full {
+          width: 40vw;
+          height: 12vw;
+          margin-bottom: 4vw; } }
+      #projects .project .links.full a {
+        width: 10vw;
+        margin: auto; }
+        #projects .project .links.full a .appstore {
+          width: 135px !important;
+          height: 40px;
+          background: url("../assets/img/appstore.svg"); }
+          @media screen and (max-width: 1000px) {
+            #projects .project .links.full a .appstore {
+              width: 40vw !important;
+              height: 12vw;
+              background-size: 100%; } }
     #projects .project .small {
       width: 30px;
       height: 30px;
