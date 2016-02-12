@@ -24,7 +24,10 @@ $(function() {
     var $elem = $(this)
     $elem.attr("title", badgeTitle)
     $elem.empty()
-  })
+  });
+
+  var year = new Date().getFullYear();
+  $(".tail").html("<p>&copy; " + year + " Fabian Hoffmann</p>");
 });
 
 $(window).scroll(function(e){
