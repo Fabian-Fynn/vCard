@@ -52,6 +52,8 @@ function createBadges(){
                   ['node', "NodeJS"],
                   ['rails', "Ruby on Rails 4"],
                   ['php', "PHP"],
+                  ['phaser', "Phaser"],
+                  ['webkit', "NodeWebkit"],
                   ['mongodb', "mongoDB"],
                   ['postgres', "PostgreSQL"],
                   ['mysql', "MYSQL"],
@@ -61,6 +63,7 @@ function createBadges(){
                   ['cs', "Visual C#"],
                   ['ios', "iOS - Swift"],
                   ['ps', "Adobe Photoshop CC"],
+                  ['ai', "Adobe Illustrator CC"],
                   ['pr', "Adobe Premiere Pro CC"],
                   ['ae', "Adobe After Effects CC"]
               ]
